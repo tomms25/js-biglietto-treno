@@ -5,7 +5,7 @@
 
 // Il prezzo del biglietto è definito in base ai kilometri = 0.21 €
 
-const kmPrice (0.21)
+let cost = 0.21;
 
 // Numero kilometri
 
@@ -18,10 +18,12 @@ console.log(Journey)
 
 let eta = parseInt(prompt("Quanti anni hai?"));
 
+console.log(eta)
+
 // Il prezzo del biglietto senza sconti, quindi per coloro tra i 19 e i 64 anni
 
 
-let prezzoBigliettoIntero = kmPrice * Journey;
+let prezzoBigliettoIntero = cost * Journey;
 
 
 // Risultato del totale in base all'applicazione dello sconto o meno
