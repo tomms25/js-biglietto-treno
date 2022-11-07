@@ -30,7 +30,7 @@ let price = parseInt(prompt("Il totale è"))
 // Se l'utente ha un'età minore di 18 anni avrà il 20%
 
 if (eta <= 18) {
-    document.getElementById("costo").innerHTML = 
+    document.getElementById("costo").innerHTML = price 
 }
 
 
