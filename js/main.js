@@ -22,6 +22,10 @@ let eta = parseInt(prompt("Quanti anni hai?"));
 let prezzoBigliettoIntero = kmPrice * Journey;
 
 
+// Risultato del totale in base all'applicazione dello sconto o meno
+
+let price = parseInt(prompt("Il totale è"))
+
 
 // Se l'utente ha un'età minore di 18 anni avrà il 20%
 
