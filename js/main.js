@@ -11,6 +11,8 @@ const kmPrice (0.21)
 
 let Journey = parseInt(prompt("Quanti kilometri vuoi percorrere?"));
 
+console.log(Journey)
+
 
 // Qual è la tua età
 
