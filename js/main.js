@@ -28,13 +28,22 @@ let prezzoBigliettoIntero = cost * Journey;
 
 // Risultato del totale in base all'applicazione dello sconto o meno
 
-let price = parseInt(prompt("Il totale è"))
+let price = " Il totale è "
+
+
+// valuta
+
+let euro = "€"
 
 
 // Se l'utente ha un'età minore di 18 anni avrà il 20%
 
 if (eta <= 18) {
-    document.getElementById("costo").innerHTML = price 
+    document.getElementById("costo").innerHTML = price + ((prezzoBigliettoIntero / 100) * 80) + euro
+} else if (eta >=65){
+    document.getElementById("costo").innerHTML = price + ((prezzoBigliettoIntero / 100) * 60) + euro
+} else {
+    document.getElementById("costo").innerHTML = price + (prezzoBigliettoIntero) + euro
 }
 
 
